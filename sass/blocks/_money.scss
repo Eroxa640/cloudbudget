@@ -1,0 +1,62 @@
+.money-list {
+  display: flex;
+}
+.money {
+  max-width: 100%;
+  background-color: #ED4C5C;
+}
+.money-info {
+  max-width: 445px;
+  text-align: left;
+  padding-top: 122px;
+  padding-bottom: 113px;
+}
+.money-info-title {
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+}
+.money-info-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  padding-top: 30px;
+}
+.money-info-icons {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+.money-icons-image {
+  padding-left: 25px;
+}
+.money-media {
+  max-width: 533px;
+  position: relative;
+}
+.radius {
+  border-radius: 15px;
+}
+.money-media-image1 {
+  background: url(../img/Video_bg.jpg),;
+  opacity: .5;
+  width: 383px;
+  height: 267px;  
+  position: absolute;
+  top: 115px;
+  left: 231px;
+}
+.money-media-image2 {
+  background: url(../img/Video_bg-1.jpg);
+  opacity: .5;
+  width: 383px;
+  height: 267px; 
+  position: absolute;
+  top: 115px;
+  left: 81px;
+}
+.money-media-image3 {
+  position: absolute;
+  top: 93px;
+  left: 125px;
+}

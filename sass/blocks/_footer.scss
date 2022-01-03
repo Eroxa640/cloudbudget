@@ -1,0 +1,46 @@
+.footer {
+  background-color: #FAFAFA;
+}
+.footer-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: left;
+  padding-top: 85px;
+  // padding-bottom: ;
+}
+.address-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.eroxa {
+  text-align: left;
+  padding-top: 86px;
+  padding-bottom: 86px;
+}
+.black {
+  color: black;
+}
+.address-str {
+  padding-top: 33px;
+}
+.service-info {
+  padding-top: 33px;
+  display: grid;
+  grid-template-columns: repeat(1, 5fr);
+  gap: 5px;
+}
+.support-info {
+  padding-top: 33px;
+}
+.get-info {
+  padding-top: 33px;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  gap: 15px;
+}
+.get-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 14px);
+  gap: 16px;
+}

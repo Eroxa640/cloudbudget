@@ -1,0 +1,244 @@
+@media screen and (max-width: 950px) {
+  .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgb(213, 32, 71) 0%, rgb(238, 62, 27)100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(100%);
+      transition: 0.4s;
+      z-index: 100;
+  }
+  .hamburger {
+      display: inline-block;
+      z-index: 101;
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+  .nav__link {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  color: #222;
+  border: 0.0625rem solid black;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  }
+  .buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  }
+  .logo {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  }
+  .navbar.is-active {
+  transform: translateX(0);
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .nav-link {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .nav-link:first-child {
+    margin-top: 0;
+  }
+}
+  @media screen and (max-width: 1105px) {
+    .software .container {
+      flex-direction: column;
+    }
+    .features-list {
+      display: inline-block;
+    }
+    .software-media {
+      margin-top: 50px;
+    }
+    .lang {
+      margin-top: 15px;
+      margin-right: 0;
+    }
+    .button {
+      margin-top: 15px;
+    }
+    .features-item {
+      margin-top: 25px;
+      margin-left: 0;
+    }
+    .features-item:first-child {
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 608px) {
+    .hero-title {
+      font-size: 65px;
+    }
+    .hero-text {
+      font-size: 20px;
+    }
+    .software {
+      padding-top: 35px;
+      padding-bottom: 5px;
+    }
+    .software-media {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .icon-play {
+      left: 1px;
+    }
+    .features {
+      padding-top: 20px;
+    }
+    .section-title {
+      margin-bottom: 15px;
+    }
+  }
+  @media screen and (max-width: 496px) {
+    .hero-title {
+      font-size: 57px;
+    }
+    .hero-text {
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 437px) {
+    .hero-title {
+      font-size: 48px;
+    }
+  }
+  @media screen and (max-width: 373px) {
+    .hero-title{
+      font-size: 40px;
+    }
+    .hero-text {
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .technology-list {
+      grid-template-columns: repeat(2, 2fr);
+      row-gap: 80px;
+    }
+    .technology-item {
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .technology-list {
+      grid-template-columns: repeat(1, 4fr);
+    }
+  }
+  @media screen and (max-width: 1080px) {
+    .money-list {
+      display: block;
+    }
+    .money-media {
+      padding-bottom: 500px;
+    }
+    .money-info {
+      margin: 0 auto;
+      padding-bottom: 0;
+    }
+    .money-eroxa {
+      max-width: 533px;
+      margin: 0 auto;
+    }
+    .money-media-image1 {
+      left: 150px;
+    }
+    .money-media-image2 {
+      left: 0;
+    }
+    .money-media-image3 {
+      left: 44px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .money-media {
+      display: none;
+    }
+    .money-info {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+  @media screen and (max-width: 1088px) {
+    .contact-list {
+      flex-direction: column;
+    }
+    .contact-info {
+      margin: 0 auto;
+    }
+    .contact-inputs {
+      margin: 0;
+    }
+    .block {
+      margin: 50px auto;
+    }
+  }
+  @media screen and (max-width: 560px) {
+    .contact-inputs {
+      grid-template-columns: repeat(2, 200px);
+    }
+    .contact-list {
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+    .contact-info-text {
+      padding-top: 25px;
+    }
+  }
+  @media screen and (max-width: 448px) {
+    .contact-inputs {
+      grid-template-columns: repeat(2, 140px);
+    }
+    .firstname {
+      height: 40px;
+    }
+    .select {
+      height: 40px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .footer-info {
+      grid-template-columns: repeat(2, 2fr);
+      padding-top: 50px;
+    }
+    .eroxa {
+      padding-bottom: 50px;
+    }
+    .support {
+      margin: 0 auto;
+    }
+    .service {
+      margin: 0 auto;
+    }
+    .get {
+      margin: 0 auto;
+    }
+    .address {
+      max-width: 130px;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 412px) {
+    .footer-info {
+      grid-template-columns: repeat(1, 4fr);
+    }
+    .address {
+      max-width: none;
+      text-align: center;
+    }
+  }

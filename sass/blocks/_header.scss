@@ -1,0 +1,137 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1105px;
+  padding: 0 10px 0 10px;
+}
+.header {
+  background:
+    linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%),
+    url(../img/header-bg.jpg) 0 0 / cover;
+  height: 100%;
+  color: white;
+}
+
+.header .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 55px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.icon-cloud {
+  font-size: 28px;
+}
+.logo-name {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 8px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 18px;
+}
+.nav-link:first-child {
+  margin-left: 0;
+}
+.nav-link.active {
+  font-weight: 700;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  margin-right: 26px;
+}
+
+.icon-down {
+  font-size: 30px;
+  position: absolute;
+  top: 61px;
+  right: 263px;
+}
+
+/* buttons */
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  text-transform: uppercase;
+  padding: 12px 30px;
+}
+.button:hover,
+.button-filled {
+  background-color: #fff;
+  color: rgba(237, 76, 92, 1);
+  text-decoration: none;
+}
+
+.button-filled:hover {
+  background-color: transparent;
+  color: white;
+}
+.button-xl {
+  padding: 17px 54px;
+  font-weight: 600;
+}
+
+/* end buttons */
+
+
+.hero {
+  max-width: 580px;
+  text-align: center;
+  margin: auto;
+}
+.hero-title {
+  font-size: 72px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.hero-text {
+  margin: 0 50px;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.nav-specific {
+  background-color: transparent;
+  border: none;
+  margin: 0 10px;
+  color: white;
+  background-color: transparent;
+}
+.hamburger {
+  position: absolute;
+  top: 100%;
+  right: 100%;
+}
